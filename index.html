@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetNourish</title>
+    <!-- Google fonts  -->
+
+    <!-- Font sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" 
+    rel="stylesheet">
+    <!-- Font ADLaM Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" 
+    rel="stylesheet">
+    <!-- Font Awesome Kit  -->
+    <script 
+      src="https://kit.fontawesome.com/f486a473f8.js" 
+      crossorigin="anonymous">
+    </script>
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- daisyUI CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" 
+      rel="stylesheet" 
+      type="text/css" 
+      />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <style>
+        .font-sora{
+            font-family: "Sora", serif;
+        }
+        .font-ADLaM-Display{
+            font-family: "ADLaM Display", serif;
+        }
+      </style>
+</head>
+<body>
+    <header class="">
+        <!-- Nevigation Section -->
+         <div class="px-5 lg:px-36 py-4 md:py-7 flex justify-between items-center bg-[#FFF9F4]">
+            <!-- Web Name & Logo -->
+            <div class="flex items-center gap-3">
+                <img src="assets/logo-header.png" alt="">
+                <h3 class="hidden md:flex font-sora font-normal text-2xl ">Pet<span class="text-yellow-400">N</span>ourish</h3>
+            </div>
+            <!-- Bars Icon for Small Device -->
+             <div class="text-xl md:hidden">
+              <i class="fa-solid fa-bars"></i>
+             </div>
+            <!-- Links -->
+            <div class="hidden lg:flex">
+              <ul class="flex items-center lg:gap-8 list-none text-xl">
+                <li class=""><a href="" class="decoration-black">Find a pet</a></li>
+                <li class=""><a href="" class="decoration-black">Breeds</a></li>
+                <li class=""><a href="" class="decoration-black">Contact us</a></li>
+              </ul>
+            </div>
+            <!-- icon & buttons -->
+            <div class="hidden md:flex items-center gap-4">
+              <i class="fa-regular fa-bell text-xl"></i>
+              <i class="fa-solid fa-magnifying-glass text-xl"></i>
+              <button class="btn btn-outline btn-warning !text-black !border-yellow-400 !text-xl">Login</button>
+              <button class="btn btn-warning !text-xl ">Register</button>
+            </div>
+         </div>
+         <!-- Banner Section -->
+    </header>
+    <main class="px-36">
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
