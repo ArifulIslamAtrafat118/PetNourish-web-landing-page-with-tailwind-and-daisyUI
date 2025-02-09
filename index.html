@@ -54,7 +54,7 @@
 <body style="max-width: 1528px; margin: auto;">
     <header class="">
         <!-- Nevigation Section -->
-         <div class="px-5 lg:px-36 py-4 md:py-7 flex justify-between items-center bg-[#FFF9F4] border-b-2 border-black md:border-b-0">
+         <div class="px-5 md:px-24 lg:px-36 py-4 md:py-7 flex justify-between items-center bg-[#FFF9F4] border-b-2 border-black md:border-b-0">
             <!-- Web Name & Logo -->
             <div class="flex items-center gap-3">
                 <img src="assets/logo-header.png" alt="" class="cursor-pointer">
@@ -343,7 +343,7 @@
           <h1 class="mb-7 lg:mb-10 font-ADLaM-Display text-3xl md:text-4xl">FAQs</h1>
           <!-- for large screen -->
           <div class="space-y-5 ">
-            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md hover:bg-[#fae097]">
+            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md bg-gray-50 hover:bg-[#fae097]">
               <div class="collapse-title text-xl font-medium">Can I purchase Clean Grooming products to use at home?</div>
               <div class="collapse-content">
                 <p>Yes! You can explore the products that meet our 
@@ -351,7 +351,7 @@
                 </p>
               </div>
             </div>
-            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md hover:bg-[#fae097]">
+            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md bg-gray-50 hover:bg-[#fae097]">
               <div class="collapse-title text-xl font-medium">How is PetNourish defining Clean at PetNourish?</div>
               <div class="collapse-content">
                 <p>
@@ -364,7 +364,7 @@
                 </p>
               </div>
             </div>
-            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md hover:bg-[#fae097]">
+            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md bg-gray-50 hover:bg-[#fae097]">
               <div class="collapse-title text-xl font-medium">What puppy grooming services does PetNourish offer?</div>
               <div class="collapse-content">
                 <p>
@@ -375,7 +375,7 @@
                 </p>
               </div>
             </div>
-            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md hover:bg-[#fae097]">
+            <div tabindex="0" class="hidden lg:grid collapse border-base-300 bg-base-200 border shadow-md bg-gray-50 hover:bg-[#fae097]">
               <div class="collapse-title text-xl font-medium">How much does it cost to trim a dog's nails?</div>
               <div class="collapse-content">
                 <p>At Petco, this can depend on the package you select:</p>
@@ -439,32 +439,60 @@
         </section>
     </main>
     <footer>
+      <!-- Footer Section -->
       <section>
-        <div class=""></div>
-        <div class="pl-4 lg:pl-36 lg:pr-28 pb-12 lg:pb-28  lg:flex justify-between bg-[#FFDC2680]">
-          <div class="space-y-7">
-            <div class="flex items-center gap-2 lg:gap-3">
-              <img src="assets/logo-footer.png" alt="Footer Logo" class="">
-              <h3 class="font-sora text-lg">Pet<span class="text-white font-sora text-lg">N</span>ourish</h3>
+        <div class="relative">
+          <!-- Upper Section  -->
+          <div class="absolute ">
+            <div class="mx-4 md:mx-24 lg:mx-32">
+              <div class="py-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-0 items-center justify-center bg-[#FFF9F4] rounded-lg md:rounded-xl">
+                <div class="mx-auto">
+                  <img src="assets/cute-pet-mid.png" alt="">
+                </div>
+                <div class="flex flex-col items-center justify-center md:items-start space-y-5 md:space-y-6 lg:space-y-7">
+                  <h3 class=" font-ADLaM-Display font-normal text-xl md:text-2xl lg:text-3xl">Get Awesome News!</h3>
+                  <p class="font-sora font-normal text-sm md:text-lg text-gray-800 text-center md:text-start px-5 md:px-0 md:pr-4">
+                    Stay Updated with PetNourish! 🐾✨<br>
+                    Subscribe now for exclusive pet care tips, special offers, 
+                    and the latest trends for your furry friends!
+                  </p>
+                  <div class="w-full md:w-3/4 px-12 md:p-0">
+                    <input type="email" name="" id="" placeholder="Enter email...." class="text-gray-300 pl-3 md:pl-5 w-full h-9 md:h-11 lg:h-14 rounded-lg">
+                  </div>
+                  <button class="btn btn-warning lg:!text-lg ">Subscribe</button>
+                </div>
+              </div>
             </div>
-            <div class=""><p class="font-sora text-sm lg:text-lg text-gray-700">
-              Discover a world of treats, toys, and <br>essentials handpicked for your furry friends
-            </p></div>
           </div>
-          <div class="mt-8 mb-8 md:mt-0 md:mb-0">
-            <ul class="font-sora space-y-5 lg:space-y-8 list-none text-sm md:text-lg lg:text-xl">
-              <li class=""><a href="" class="decoration-black">Find a pet</a></li>
-              <li class=""><a href="" class="decoration-black">Breeds</a></li>
-              <li class=""><a href="" class="decoration-black">Contact us</a></li>
-            </ul>
+          <!-- For Upper white space -->
+          <div class="w-full h-[25rem] md:h-[13rem] lg:h-[15rem]">        
           </div>
-          <div class="space-y-6 lg:space-y-7">
-            <p class="font-sora ">Follow Us</p>
-            <div class="flex gap-7">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fa-brands fa-youtube"></i>
+          <!-- Lower Section -->
+          <div class="pt-[23rem] md:pt-[20rem] pl-4 md:pl-28 lg:pl-[10rem] lg:pr-28 pb-12 lg:pb-28  md:grid md:grid-cols-2 lg:grid-cols-3 md:space-x-20   bg-[#FFDC2680]">
+            <div class="space-y-7 ">
+              <div class="flex items-center gap-2 lg:gap-3">
+                <img src="assets/logo-footer.png" alt="Footer Logo" class="">
+                <h3 class="font-sora text-lg">Pet<span class="text-white font-sora text-lg">N</span>ourish</h3>
+              </div>
+              <div class=""><p class="font-sora text-sm lg:text-lg text-gray-700">
+                Discover a world of treats, toys, and <br>essentials handpicked for your furry friends
+              </p></div>
+            </div>
+            <div class="mt-8 mb-8 md:mt-0 md:mb-0 ">
+              <ul class="font-sora space-y-5 lg:space-y-8 list-none text-sm md:text-lg lg:text-xl">
+                <li class=""><a href="" class="decoration-black">Find a pet</a></li>
+                <li class=""><a href="" class="decoration-black">Breeds</a></li>
+                <li class=""><a href="" class="decoration-black">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="space-y-6 lg:space-y-7">
+              <p class="font-sora ">Follow Us</p>
+              <div class="flex gap-7 ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
             </div>
           </div>
         </div>
